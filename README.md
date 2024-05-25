@@ -14,11 +14,11 @@ e^{l} &= \sum_{i=1}^{M^{l}}\left|a_{i}^{l}-s_{i}^{l}(f)\right|  \\
 
 
 and its correct form should be
-$$
-\begin{aligned}
+
+$$\begin{align}
 e^{l} &= \sum_{i=1}^{M^{l}}\left|a_{i}^{l}-s_{i}^{l}(f)\right|  \\
 			&\leq\sum_{j=1}^{L^{l}}\left|s_{j}^{l}(T)-a_{j}^{l}\right| + \sum_{k=1}^{M^{l}-(U^{l} + L^{l})}\left|s_{k}^{l}(f-1)-s_{k}^{l}(f)\right| + \sum_{i=1}^{U^{l}}\left|a_{i}^{l}-s_{i}^{l}(0)\right| \\
 			&\leq e_{c,min}^{l} + e_{q}^{l} + e_{c,max}^{l}
-\end{aligned}
-$$
+\end{align}$$
+
 
